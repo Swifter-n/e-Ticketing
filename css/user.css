@@ -1,0 +1,10 @@
+#navbar{margin-top: 0px;overflow: hidden;}
+#navbar nav ul li a{margin:auto;text-decoration: none;padding: 15px;display:-block;float: left;color: #000;font-size: 15px;}
+#navbar nav ul li a:hover{background: #ffa31a;}
+#data h2{background-color: #ffa31a; color: #fff;padding: 5px;}
+#data .control {margin-bottom: 10px;margin-left: 20px;}
+#data .control input, textarea{border-radius: 1px; }
+#data .control input[type=submit]{background-color: #ffa31a;color: #fff;padding: 5px;border-radius: 5px;cursor: pointer;border:0;line-height: 20px;font-size: 15px;}
+#datas table{width: 1000px;}
+#datas table th{background-color: #ffa31a;color: #fff;padding: 10px;}
+#datas table td{text-align: center;}

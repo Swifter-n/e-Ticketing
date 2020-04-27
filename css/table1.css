@@ -1,0 +1,23 @@
+body{
+	line-height: 1.6em;
+}
+.container{width: 900px; margin: auto;}
+#tableList{overflow: hidden; font-family: 'Open Sans', sans-serif;font-size: 12px;margin: auto;width: 900px;text-align: left;border-collapse: collapse;}
+#tableList th{
+	background: #ffa31a;
+	padding: 9px;
+	font-weight: normal;
+	font-size: 14px;
+	border-bottom: 2px solid #6678b1;
+	border-left: 1px solid #000;
+	border-right:1px solid #000;
+}
+#tableList td{padding: 9px;
+	border-right: 1px solid #000;
+	border-left: 1px solid #000;
+	border-bottom: 1px solid #000;
+	color: #669;
+	overflow: hidden;
+}
+#tableList a{text-decoration: none;}
+#tableList a:hover{text-decoration: underline;}

@@ -1,0 +1,272 @@
+#wrap{
+    width:100%;
+    margin-right:auto;
+    margin-left:auto; 
+    border:none; 
+}
+
+body{
+    margin:0px auto 0px;
+    padding:3px;
+    font-family:"Arial";
+    font-size:12px;
+    color:#333;
+    width:95%;
+    background-position:top;
+    background-color:#fff;
+}
+#header{
+    height:100px;
+    width:100%;
+    overflow:hidden;
+    margin:0px;
+    padding:0px; 
+    background:#F5F5F5;
+    border-bottom:5px solid #DDDDDD;
+}
+li{
+    list-style: none;
+}
+
+.table-main {
+    clear: both;
+    text-align: left;
+    border-collapse: collapse;
+    margin: 0px 0px 0px 0px;
+    background:#fff;
+    border:none;
+    width:100%;
+}
+.table-main td {    
+    color: #333;
+    border-collapse: collapse;
+    vertical-align: center;
+    padding: 0px;
+    border:none;
+}
+.table-main ul{ padding:0px; margin:0px 5px; width:100%;}
+.table-main li{ padding:0px; margin:0px 0px 5px 0px;}
+.table-main li a{ padding:5px; margin:0px 0px 0px 0px; color:#006600; 
+    font-size:13px; 
+    font-weight:bold; 
+    text-decoration:none;
+    display: block; 
+    }
+.table-main li a:hover{color:#000000;}
+.table-common {
+    clear: both;
+    text-align: left;
+    border-collapse: collapse;
+    margin: 10px 0px 10px 0px;
+    background:#fff;    
+}
+.table-common th {
+    color: #333; font-size: 14px; 
+    font-weight: 700; 
+    margin: 2px 2px 2px 2px; 
+    padding: 5px 5px; 
+    background: url(../images/td_biru1.jpg) repeat-x top #fff; 
+    border-bottom: 1px solid #CCC; 
+    border-top: 2px solid #666666;
+}
+.table-common td {
+    color: #333;
+    font-size:12px;
+    border-color: #fff;
+    border-collapse: collapse;
+    vertical-align: center;
+    padding: 3px 5px;
+    border-bottom:0px #CCCCCC solid;
+}
+.table-list {
+    clear: both;
+    text-align: left;
+    border-collapse: collapse;
+    margin: 0px 0px 10px 0px;
+    background:#fff;    
+}
+.table-list th {
+    color: #333; font-size: 14px; 
+    font-weight: 700; 
+    margin: 2px 2px 2px 2px; 
+    padding: 5px 5px; 
+    background: url(../images/td_putih.jpg) repeat-x top #fff; 
+    border-bottom: 1px solid #CCC;  
+    border-top: 2px solid #FF9900;
+}
+.table-list tr {}
+
+.table-list td {
+    color: #333;
+    font-size:12px;
+    border-color: #fff;
+    border-collapse: collapse;
+    vertical-align: center;
+    padding: 3px 5px;
+    border-bottom:1px #CCCCCC solid;
+}
+
+.table-list2 td {
+    color: #333;
+    font-size:12px;
+    border-color: #fff;
+    border-collapse: collapse;
+    vertical-align: center;
+    padding: 5px 5px;
+    border:1px #CCCCCC solid;
+}
+
+.table-print {
+    clear: both;
+    text-align: left;
+    border-collapse: collapse;
+    margin: 0px 0px 10px 0px;
+    background:#fff;    
+}
+.table-print tr {}
+
+.table-print td {
+    color: #333;
+    font-size:12px;
+    border-color: #fff;
+    border-collapse: collapse;
+    vertical-align: center;
+    padding: 3px 5px;
+}
+
+.table-user {
+    clear: both;
+    text-align: left;
+    border-collapse: collapse;
+    margin: 0px 0px 10px 0px;
+    background:#fff;    
+}
+
+.table-user th {
+    color: #333; 
+    font-size: 14px; 
+    font-weight: 700; 
+    margin: 2px 2px 2px 2px; 
+    padding: 5px 5px; 
+    background: url(../images/td_biru2.jpg) repeat-x top #fff; 
+    border-bottom: 1px solid #CCC; 
+    border-top: 2px solid #FF9900;
+}
+
+.table-user td {
+    color: #333;
+    font-size:12px;
+    border-color: #fff;
+    border-collapse: collapse;
+    vertical-align: center;
+    padding: 3px 5px;
+    border-bottom:1px #CCCCCC solid;
+}
+.table-main textarea:focus{background:#E8E8E8;}
+.table-main input:focus{background:#E8E8E8;}
+.table-main select:focus{background:#E8E8E8;}
+
+.selKecil {
+    color: #333;
+    font-size:12px;
+    border-color: #fff;
+    border-collapse: collapse;
+    vertical-align: center;
+    padding: 3px 5px;
+    border-bottom:1px #CCCCCC solid;
+}
+
+input.angkaC {
+    text-align:center;
+}
+input.angkaL {
+    text-align:left;
+}
+input.angkaR {
+    text-align:right;
+}
+.table input[type=text]{padding: 5px; border-radius: 5px;}
+.mssgBox { 
+    margin-bottom:10px;
+    margin-right:5px;
+    margin-left:0px;
+    padding:0px;
+    float:left;
+    font-size:12px;
+}
+
+.imgBox { 
+    margin-bottom:0px;
+    margin-right:5px;
+    margin-left:0px;
+    padding:0px;
+    float:left;
+    font-size:12px;
+}
+
+div.menu4{
+    /*width:500px;margin:0 auto;*/
+    background: #ffa31a;
+    text-align: center;
+    font-size: 0;
+    height: 25px;
+    *position: relative; *top: 1px;
+}
+div.menu4 a{
+    display: inline-block;
+    margin-right: 6px;
+    background: #ffa31a url(bg.gif) repeat-x 0 0;
+    padding-left: 4px;
+    vertical-align: top;
+    text-decoration: none;
+}
+div.menu4 a span{
+    display: inline-block;
+    background: #ffa31a url(bg.gif) repeat-x 100% 0;
+    padding: 0 20px;
+    vertical-align: top;
+    text-decoration: none;
+    font: normal 12px Arial;
+    line-height: 25px;
+    color: #7087A9; 
+}
+div.menu4 a:hover, div.menu4 a.current{
+    background: #ffa31a url(bg3.gif) repeat-x 0 -25px;
+    line-height: 26px;
+}
+div.menu4 a:hover span, div.menu4 a.current span{
+    background: #ffa31a url(bg3.gif) repeat-x 100% -25px;
+    line-height: 26px;
+    color: #244D8A;
+}
+div.menu4sub{
+    height: 8px;
+    border:1px solid #C2D5EF;
+    background: #eee url(bg3.gif) repeat-x 0 -50px;
+}
+.container{
+    width: 900px;
+    margin: auto;
+}
+#tableList{ width: 800px; font-family: 'Open Sans', sans-serif;font-size: 12px;margin: auto;text-align: left;border-collapse: collapse;}
+#tableList th{
+    background: #ffa31a;
+    padding: 20px;
+    font-weight: normal;
+    font-size: 14px;
+    border-bottom: 2px solid #6678b1;
+    border-left: 1px solid #000;
+    border-right:1px solid #000; 
+    
+}
+#tableList td{
+    border-right: 1px solid #000;
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #000;
+    color: #669;
+    padding: 20px;
+    }
+#tableList a{text-decoration: none;display: inline-block;}
+#tableList a:hover{text-decoration: underline;background: #f1c40f}
+
+-->
